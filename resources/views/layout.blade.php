@@ -10,8 +10,7 @@
     <link href="/css/default.css" rel="stylesheet"/>
     <link href="/css/fonts.css" rel="stylesheet"/>
 
-    <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-
+    @yield('head')
 </head>
 <body>
     <div id="header-wrapper">
